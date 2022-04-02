@@ -8,9 +8,9 @@ var img2 = document.querySelector(".img2")
 img1.setAttribute("src", `${diceOne}`);
 img2.setAttribute("src", `${diceTwo}`);
 if (diceOne === diceTwo){
-        document.querySelector("h2").innerHTML = "Its a draw !!";
+        document.querySelector("h1").innerHTML = "🏆Its a draw 🏆";
 } else if (diceOne > diceTwo) {
-        document.querySelector("h2").innerHTML = "Player One Wins!!";
+        document.querySelector("h1").innerHTML = "🏆Player One Wins";
 } else if (diceOne < diceTwo) {
-        document.querySelector("h2").innerHTML = "Player Two Wins!!";
+        document.querySelector("h1").innerHTML = "Player Two Wins🏆";
 }
