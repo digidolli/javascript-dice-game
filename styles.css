@@ -7,35 +7,44 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
-  background-color: #393E46;
+  background-color: #f5b0cb;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: 200;
+  color: #dc6acf;
+  padding: 3%;
+}
+
+h2 {
+  padding: 3%;
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #dc6acf;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #dc6acf;
+  font-family: monospace;
 }
 
 img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+p {
+  font-size: 16px;
+}
 
+a {
+  text-decoration: none;
+  color: honeydew;
 }
